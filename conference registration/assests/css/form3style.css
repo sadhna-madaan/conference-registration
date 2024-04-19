@@ -1,0 +1,106 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color:#6490a8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*{
+	box-sizing: border-box;
+
+}
+
+h1, h2, h3, h4, ul,li, ol, p{
+	margin: 0;
+}
+
+p{
+	color: rgba(22, 22, 22, 0.92);;
+}
+
+ul{
+	padding: 0;
+	list-style: none;
+}
+
+li{
+	padding-right: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: #5a8399;
+}
+
+.style{
+	font-style: italic;
+}
+
+.font1{
+    font-family: "Poppins-Bold", sans-serif;
+}
+
+.transform1{
+	text-transform: capitalize;
+}
+
+.transform2{
+	text-transform: uppercase;
+}
+
+
+.align{
+    text-align: left;
+}
+
+.align2{
+    text-align: center;
+}
+
+/* section css */
+#formbox{
+    text-align: center;
+    /* position: relative; */
+}
+
+.box {
+    max-width: 534px;
+    width: 100%;
+    border: solid #fff;
+    position: absolute;
+    left: 30%;
+    top: 7%;
+    padding: 36px;
+    background: #fff;
+    border-radius: 11px
+}
+
+.form-label {
+    margin-bottom: 10px;
+    color: #5a8399;
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.fill {
+    margin: 20px 0;
+    padding: 18px 14px;
+    width: 100%;
+}
+.sign_btn {
+    background-color: #6490a8;
+    color: #fff;
+    max-width: 94px;
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.form input{
+    max-width: 286px;
+    width: 100%;
+}
+
